@@ -1,4 +1,4 @@
-# trainer-api
+# Landrup Dans API
 
 RESTful web API for the Landrup Dans App.
 
