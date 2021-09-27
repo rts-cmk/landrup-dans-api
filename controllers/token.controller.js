@@ -18,6 +18,7 @@ async function createToken(req, res, next) {
 		res.json({
 			userId: user.id,
 			token,
+			role: user.role,
 			validUntil: Date.now() + (60*60*1000)
 		});
 	} catch (error) {
